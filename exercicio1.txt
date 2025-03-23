@@ -1,0 +1,2 @@
+O código está errado porque a variável temp é um ponteiro não inicializado. Isso significa que *temp = *x;
+tenta armazenar um valor em um endereço de memória desconhecido, levando a um comportamento indefinido e possivelmente a um erro de segmentação.
